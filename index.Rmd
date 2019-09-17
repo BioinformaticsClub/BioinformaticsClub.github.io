@@ -2,4 +2,4 @@
 title: "Home"
 ---
 
-Es la pag para el bioinformatics club del liigh
+Es la pag para el bioinformatics club del liigh 
