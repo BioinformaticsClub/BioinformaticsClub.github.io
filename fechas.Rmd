@@ -1,0 +1,10 @@
+---
+title: "Fechas"
+---
+Aquí estan las fechas de nuestras reuniones del BC: 
+
+```{r, echo=FALSE,warning=FALSE}
+library(knitr)
+kable(read.csv("files/Reuniones.txt"))
+
+```
