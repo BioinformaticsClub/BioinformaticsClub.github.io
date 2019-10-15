@@ -6,14 +6,8 @@ title: "¿Qué es *__Bioinformatics Club__* ?"
 *__Bioinformatics Club__* (*BC*) es un espacio para compartir lo que sabemos y puede llegar a ser útil para la comunidad bioinformática. Esta iniciativa nace por estudiantes del [LIIGH](http://liigh.unam.mx/) y todos estan invitados a participar, compartir, aprender y enseñar herramientas, tips, análisis, etc. que sean ventajoso para nuestra comunidad.
 
 
-# fragmento de css para centrar imagen
-<style type="text/css">
-.centerImage
-{
- text-align:center;
- display:block;
-}
-</style>
 
-<center><img src="images/BC.png"; margin-right: 10px"></center>
+```{r, out.width = "50%", echo = FALSE, fig.align = "center"}
+knitr::include_graphics("images/BC.png")
+```
 
