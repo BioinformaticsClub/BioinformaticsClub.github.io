@@ -1,10 +1,21 @@
 ---
 title: "Fechas"
 ---
-Aquí estan las fechas de nuestras reuniones del BC: 
+
+Te esperamos!
+
+```{r, out.width = "90%", echo = FALSE, fig.align = "center"}
+knitr::include_graphics("images/ggplot.png")
+```
+
+
+
+
+Aquí estan las fechas pasadas de nuestras reuniones del BC: 
 
 ```{r, echo=FALSE,warning=FALSE}
 library(knitr)
 kable(read.csv("files/Reuniones.txt"))
 
 ```
+
