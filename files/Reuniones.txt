@@ -4,4 +4,3 @@ Control de versiones en Git, Ale,3 Septiembre 2019, ENES-Juriquilla
 Páginas en Github,Ana B,17 Septiembre 2019,LAVIS
 Ensembl API,Dani,1 Octubre 2019,LIIGH
 Llamado de variantes somáticas, Caro, 15 Octubre 2019, LIIGH
-?,?,29 Octubre 2019, LIIGH

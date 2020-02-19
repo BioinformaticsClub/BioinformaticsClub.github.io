@@ -2,16 +2,21 @@
 title: "Fechas"
 ---
 
-Te esperamos!
+# {.tabset .tabset-fade .tabset-pills}
+***
+
+## Próximo evento
 
 ```{r, out.width = "90%", echo = FALSE, fig.align = "center"}
-knitr::include_graphics("images/ggplot.png")
+knitr::include_graphics("images/awk.png")
 ```
 
 
+## Sesiones pasadas 
 
+[![ggplo2](images/ggplot.png)](slides/ggplot2Introduction.html)
 
-Aquí estan las fechas pasadas de nuestras reuniones del BC: 
+Otras fechas pasadas de nuestras reuniones del BC: 
 
 ```{r, echo=FALSE,warning=FALSE}
 library(knitr)
