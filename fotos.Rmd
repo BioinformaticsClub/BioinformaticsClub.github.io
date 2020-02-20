@@ -2,4 +2,11 @@
 title: "Fotos"
 ---
 
-Aqui van fotos 
+Para la sesión de ggplot2 tuvimos conchas!!! 
+
+![ggplo2](photos/IMG_20200219_152931.jpg)
+![ggplo2](photos/IMG_20200219_152943.jpg)
+
+
+
+ 

@@ -5,6 +5,10 @@ title: "¿Qué es *__Bioinformatics Club__* ?"
 
 *__Bioinformatics Club__* (*BC*) es un espacio para compartir lo que sabemos y puede llegar a ser útil para la comunidad bioinformática. Esta iniciativa nace por estudiantes del [LIIGH](http://liigh.unam.mx/) y todos estan invitados a participar, compartir, aprender y enseñar herramientas, tips, análisis, etc. que sean ventajoso para nuestra comunidad.
 
+También puedes unirte a [Slack](https://join.slack.com/t/bioinformatics-club/shared_invite/enQtNzY4NDM4NDQ4MjQzLWUwNTU2Y2RiNjczZTQ4OTFmMmE2NGYxMjE0M2FkY2Q2MjIzZTI2MmMwZGE2MmNjNDg2YTY4ZjZlMDZjNDMxNWQ)
+
+
+
 
 
 ```{r, out.width = "50%", echo = FALSE, fig.align = "center"}
