@@ -14,7 +14,7 @@ knitr::include_graphics("images/shiny.png")
 
 ## Sesiones pasadas 
 
-[![shiny](images/shiny.png)](slides/awk.pdf)
+[![shiny](images/awk.png)](slides/awk.pdf)
 
 [![ggplo2](images/ggplot.png)](slides/ggplot2Introduction.html)
 
