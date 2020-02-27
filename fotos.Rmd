@@ -4,6 +4,13 @@ title: "Fotos"
 
 Para la sesión de ggplot2 tuvimos conchas!!! 
 
+## awk
+
+![awk](photos/IMG_20200226_165115.jpg)
+
+
+## ggplot2
+
 ![ggplo2](photos/IMG_20200219_152931.jpg)
 ![ggplo2](photos/IMG_20200219_152943.jpg)
 
