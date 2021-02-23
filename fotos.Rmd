@@ -1,5 +1,5 @@
 ---
-title: "Fotos"
+title: "Comida"
 ---
 
 Para la sesión de ggplot2 tuvimos conchas!!! 

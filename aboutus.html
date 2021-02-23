@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>¿Quiénes somos?</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/twitter-widget-0.0.1/widgets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Bioinformatics Club</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="fechas.html">Fechas</a>
+</li>
+<li>
+  <a href="fotos.html">Comida</a>
+</li>
+<li>
+  <a href="aboutus.html">Nosotr@s</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">¿Quiénes somos?</h1>
+
+</div>
+
+
+<p>El <em>Bioinformatics Club</em> empezó como iniciativa de <a href="https://twitter.com/julyreza">Karen Núñez</a>, <a href="https://twitter.com/MiriamJBravo1">Miriam Bravo</a> y <a href="https://twitter.com/AnaBetty2304">Ana Beatriz Villaseñor</a> como estudiantes de doctorado en el <a href="http://liigh.unam.mx/">LIIGH</a>.</p>
+<p>Si, quieres saber sobre nosotras puedes ver nuestras cuentas de twitter en donde publicamos acerca de nuestra investigación:</p>
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">First study of its kind done 100% in Mexico! <br>Honored to share our work with Dr. <a href="https://twitter.com/paleogenomics?ref_src=twsrc%5Etfw">@paleogenomics</a>.<a href="https://t.co/9ylHu2hokJ">https://t.co/9ylHu2hokJ</a>.</p>&mdash; Miriam J. Bravo (@MiriamJBravo1) <a href="https://twitter.com/MiriamJBravo1/status/1313797556225310721?ref_src=twsrc%5Etfw">October 7, 2020</a></blockquote>
+
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">I am glad to share our work! 😊 <a href="https://t.co/3ZBzwiNTdH">https://t.co/3ZBzwiNTdH</a></p>&mdash; Karen Nuñez (@julyreza) <a href="https://twitter.com/julyreza/status/1294752187789107202?ref_src=twsrc%5Etfw">August 15, 2020</a></blockquote>
+
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Very happy to share our work! 😄 Thanks to all collaborators and people supporting me (us) during this time. It&#39;s been a great experience in <a href="https://twitter.com/AleMedinaRivera?ref_src=twsrc%5Etfw">@AleMedinaRivera</a> lab 🙏<a href="https://twitter.com/yalbi_ibm?ref_src=twsrc%5Etfw">@yalbi_ibm</a> <a href="https://twitter.com/_Marco_Moretto_?ref_src=twsrc%5Etfw">@_Marco_Moretto_</a> <a href="https://twitter.com/licloona1487?ref_src=twsrc%5Etfw">@licloona1487</a> <a href="https://twitter.com/Mariel?ref_src=twsrc%5Etfw">@Mariel</a> <a href="https://twitter.com/LamaMoises?ref_src=twsrc%5Etfw">@LamaMoises</a> <br>🎉 <a href="https://twitter.com/hashtag/PulmonDB?src=hash&amp;ref_src=twsrc%5Etfw">#PulmonDB</a> <a href="https://twitter.com/hashtag/COPD?src=hash&amp;ref_src=twsrc%5Etfw">#COPD</a> <a href="https://twitter.com/hashtag/IPF?src=hash&amp;ref_src=twsrc%5Etfw">#IPF</a><br> <a href="https://t.co/6M2XAMTL3W">https://t.co/6M2XAMTL3W</a></p>&mdash; Ana Betty Villaseñor (@AnaBetty2304) <a href="https://twitter.com/AnaBetty2304/status/1217914815970234371?ref_src=twsrc%5Etfw">January 16, 2020</a></blockquote>
+
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Congratulations to <a href="https://twitter.com/AnaBetty2304?ref_src=twsrc%5Etfw">@AnaBetty2304</a>, Miriam Bravo, <a href="https://twitter.com/V_Villa_Islas?ref_src=twsrc%5Etfw">@V_Villa_Islas</a> and <a href="https://twitter.com/julyreza?ref_src=twsrc%5Etfw">@julyreza</a> for successfully defending their PhD projects in the candidacy exams! Here we see them celebrating with their proud advisors <a href="https://twitter.com/paleogenomics?ref_src=twsrc%5Etfw">@paleogenomics</a> and <a href="https://twitter.com/AleMedinaRivera?ref_src=twsrc%5Etfw">@AleMedinaRivera</a>. <a href="https://t.co/cOlnhpkqIH">pic.twitter.com/cOlnhpkqIH</a></p>&mdash; LIIGH (@LIIGH_UNAM) <a href="https://twitter.com/LIIGH_UNAM/status/1054426535141302273?ref_src=twsrc%5Etfw">October 22, 2018</a></blockquote>
+
+<p>Sin embargo la mayor parte de la comunidad estudiantil de posgrado en el <a href="http://liigh.unam.mx/">LIIGH</a> forma parte del BC. Gracias a ellos hemos podido costruir está comunidad y aprender juntos sobre herramientas bioiformáticas, así como apreder a dar talleres sobre las herramientas que conocemos.</p>
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">1st meeting of <a href="https://twitter.com/LIIGH_UNAM?ref_src=twsrc%5Etfw">@LIIGH_UNAM</a> <a href="https://twitter.com/hashtag/bioinformatics?src=hash&amp;ref_src=twsrc%5Etfw">#bioinformatics</a> club! 100% women 😉 (promise men were not excluded...). Learnt about peak motif discovery in CHiP-Seq experiments! Thanks <a href="https://twitter.com/julyreza?ref_src=twsrc%5Etfw">@julyreza</a> 😀 <a href="https://twitter.com/AleMedinaRivera?ref_src=twsrc%5Etfw">@AleMedinaRivera</a> <a href="https://twitter.com/patydesu?ref_src=twsrc%5Etfw">@patydesu</a> <a href="https://twitter.com/EstefVazque?ref_src=twsrc%5Etfw">@EstefVazque</a> <a href="https://twitter.com/AnaBetty2304?ref_src=twsrc%5Etfw">@AnaBetty2304</a> <a href="https://twitter.com/MiriamJBravo1?ref_src=twsrc%5Etfw">@MiriamJBravo1</a> <a href="https://t.co/BA1VSDmY8r">pic.twitter.com/BA1VSDmY8r</a></p>&mdash; Daniela Robles (@daniela_oaks) <a href="https://twitter.com/daniela_oaks/status/1163981739653357568?ref_src=twsrc%5Etfw">August 21, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Had a great time teaching how to use <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a> to <a href="https://twitter.com/LIIGH_UNAM?ref_src=twsrc%5Etfw">@LIIGH_UNAM</a> students at their Bioinformatics Club!! <a href="https://twitter.com/AnaBetty2304?ref_src=twsrc%5Etfw">@AnaBetty2304</a> <a href="https://twitter.com/julyreza?ref_src=twsrc%5Etfw">@julyreza</a> <a href="https://twitter.com/MiriamJBravo1?ref_src=twsrc%5Etfw">@MiriamJBravo1</a> <a href="https://twitter.com/Victoria_L_A?ref_src=twsrc%5Etfw">@Victoria_L_A</a> <a href="https://twitter.com/luci_rmz?ref_src=twsrc%5Etfw">@luci_rmz</a> <a href="https://twitter.com/patydesu?ref_src=twsrc%5Etfw">@patydesu</a> <a href="https://t.co/fRTr6j5sto">pic.twitter.com/fRTr6j5sto</a></p>&mdash; Alejandra Medina-Rivera (@AleMedinaRivera) <a href="https://twitter.com/AleMedinaRivera/status/1169098163493507072?ref_src=twsrc%5Etfw">September 4, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Yesterday at our <a href="https://twitter.com/hashtag/BioinformaticsClub?src=hash&amp;ref_src=twsrc%5Etfw">#BioinformaticsClub</a>. <a href="https://twitter.com/citosina?ref_src=twsrc%5Etfw">@citosina</a> tell us about somatic variant calling. Thanks for joined us <a href="https://twitter.com/patydesu?ref_src=twsrc%5Etfw">@patydesu</a>, <a href="https://twitter.com/EstefVazque?ref_src=twsrc%5Etfw">@EstefVazque</a>, <a href="https://twitter.com/AnaBetty2304?ref_src=twsrc%5Etfw">@AnaBetty2304</a>, Luis and <a href="https://twitter.com/jorge1cuamatzi?ref_src=twsrc%5Etfw">@jorge1cuamatzi</a>. Next session we&#39;ll talk about <a href="https://twitter.com/hashtag/Galaxy?src=hash&amp;ref_src=twsrc%5Etfw">#Galaxy</a> <a href="https://t.co/Nkg9oQn58S">pic.twitter.com/Nkg9oQn58S</a></p>&mdash; Karen Nuñez (@julyreza) <a href="https://twitter.com/julyreza/status/1184892972959186944?ref_src=twsrc%5Etfw">October 17, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Today at our <a href="https://twitter.com/hashtag/BioinformaticsClub?src=hash&amp;ref_src=twsrc%5Etfw">#BioinformaticsClub</a>. Learning RNA-seq analysis in <a href="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">@usegalaxyp</a> with the company of <a href="https://twitter.com/luci_rmz?ref_src=twsrc%5Etfw">@luci_rmz</a>, <a href="https://twitter.com/jorge1cuamatzi?ref_src=twsrc%5Etfw">@jorge1cuamatzi</a>, <a href="https://twitter.com/MiriamJBravo1?ref_src=twsrc%5Etfw">@MiriamJBravo1</a>, <a href="https://twitter.com/KevinMorningst6?ref_src=twsrc%5Etfw">@KevinMorningst6</a>, <a href="https://twitter.com/patydesu?ref_src=twsrc%5Etfw">@patydesu</a>, Luis and Hector <a href="https://t.co/MSXoDfkiW3">pic.twitter.com/MSXoDfkiW3</a></p>&mdash; Karen Nuñez (@julyreza) <a href="https://twitter.com/julyreza/status/1194784652768292864?ref_src=twsrc%5Etfw">November 14, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Today at our Bioinformatics Club <a href="https://twitter.com/UNAM_Juriquilla?ref_src=twsrc%5Etfw">@UNAM_Juriquilla</a> <a href="https://twitter.com/LIIGH_UNAM?ref_src=twsrc%5Etfw">@LIIGH_UNAM</a> , we have <a href="https://twitter.com/AnaBetty2304?ref_src=twsrc%5Etfw">@AnaBetty2304</a> showing us how to build a webpage using github 😁 <a href="https://t.co/CFvjKcvTIX">pic.twitter.com/CFvjKcvTIX</a></p>&mdash; Viridiana Villa (@V_Villa_Islas) <a href="https://twitter.com/V_Villa_Islas/status/1238250243600384003?ref_src=twsrc%5Etfw">March 12, 2020</a></blockquote>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

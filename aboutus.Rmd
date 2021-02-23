@@ -1,0 +1,38 @@
+---
+title: "¿Quiénes somos?"
+---
+
+El *Bioinformatics Club* empezó como iniciativa de [Karen Núñez](https://twitter.com/julyreza), [Miriam Bravo](https://twitter.com/MiriamJBravo1) y [Ana Beatriz Villaseñor](https://twitter.com/AnaBetty2304) como estudiantes de doctorado en el [LIIGH](http://liigh.unam.mx/).
+
+Si, quieres saber sobre nosotras puedes ver nuestras cuentas de twitter en donde publicamos acerca de nuestra investigación:
+
+
+
+
+
+```{r echo=FALSE}
+library(tweetrmd)
+
+tweet_embed("https://twitter.com/MiriamJBravo1/status/1313797556225310721?s=20")
+tweet_embed("https://twitter.com/julyreza/status/1294752187789107202?s=20")
+tweet_embed("https://twitter.com/AnaBetty2304/status/1217914815970234371?s=20")
+tweet_embed("https://twitter.com/LIIGH_UNAM/status/1054426535141302273?s=20")
+```
+
+
+Sin embargo la mayor parte de la comunidad estudiantil de posgrado en el [LIIGH](http://liigh.unam.mx/) forma parte del BC. Gracias a ellos hemos podido costruir está comunidad y aprender juntos sobre herramientas bioiformáticas, así como apreder a dar talleres sobre las herramientas que conocemos.
+
+
+
+
+```{r echo=FALSE}
+library(tweetrmd)
+tweet_embed("https://twitter.com/daniela_oaks/status/1163981739653357568?s=20")
+tweet_embed("https://twitter.com/AleMedinaRivera/status/1169098163493507072?s=20")
+tweet_embed("https://twitter.com/julyreza/status/1184892972959186944?s=20")
+tweet_embed("https://twitter.com/julyreza/status/1194784652768292864?s=20")
+tweet_embed("https://twitter.com/V_Villa_Islas/status/1238250243600384003?s=20")
+
+```
+
+

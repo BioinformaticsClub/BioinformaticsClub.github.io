@@ -7,6 +7,9 @@ navbar:
       href: index.html
     - text: "Fechas"
       href: fechas.html
-    - text: "Fotos"
+    - text: "Comida"
       href: fotos.html
+    - text: "Nosotr@s"
+      href: aboutus.html
+      
       

@@ -7,7 +7,7 @@ title: "Fechas"
 
 ## Próximo evento
 
-[![Docker](images/jupyter.png)](https://us04web.zoom.us/j/56072021)
+[![Docker](images/jupyter.png)](https://us04web.zoom.us/j/623620342?pwd=V2VLTE5ZQkgwVUQwakx5Z0pHbmNPQT09)
 
 ```{r, out.width = "90%", echo = FALSE, fig.align = "center"}
 #knitr::include_graphics("images/jupyter.png")
